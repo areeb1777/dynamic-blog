@@ -8,7 +8,7 @@ import Container from '@/app/components/Container';
 const montserrat = Montserrat({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'DEVLAB: Discover the Latest in Web Development and AI',
+  title: 'AREEB BLOG: Discover the Latest in Web Development and AI',
   description: 'Welcome to our web development and AI blog...',
 };
 
