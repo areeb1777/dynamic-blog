@@ -6,11 +6,11 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-black mt-12">
-      <section className="px-6 xs:px-8 sm:px-12 lg:px-16 xl:px-24 2xl:px-32 py-4 text-sm text-light">
+    <footer className="w-full bg-black text-white mt-12">
+      <section className="px-6 xs:px-8 sm:px-12 lg:px-16 xl:px-24 2xl:px-32 py-4 text-sm">
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-8">
           <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8 text-center sm:text-left">
-            <p>
+            <p className="text-white">
               Developed with{" "}
               <span className="font-bold text-accentDarkPrimary">Next.js</span>{" "}
               and{" "}
@@ -25,7 +25,7 @@ export default function Footer() {
                   alt="Twitter"
                   width={24}
                   height={24}
-                  className="hover:opacity-80"
+                  className="filter invert"
                 />
               </Link>
               <Link href="https://www.linkedin.com/in/muhammad-areeb-a295192b5/" target="_blank">
@@ -34,15 +34,14 @@ export default function Footer() {
                   alt="LinkedIn"
                   width={24}
                   height={24}
-                  className="hover:opacity-80"
+                  className="filter invert"
                 />
               </Link>
             </div>
           </div>
-          <p className="text-xs text-center sm:text-right">
-            © 2024 <span className="font-bold text-light">AREEB</span>
-            <span className="font-bold text-accentDarkPrimary text-red-500 ml-1">BLOG</span> All
-            rights reserved.
+          <p className="text-xs text-white text-center sm:text-right">
+            © 2024 <span className="font-bold">AREEB</span>
+            <span className="font-bold text-accentDarkPrimary text-red-500 ml-1">BLOG</span> All rights reserved.
           </p>
         </div>
       </section>
